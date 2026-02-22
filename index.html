@@ -68,7 +68,7 @@
             <i class="fas fa-info-circle"></i> 2026 시즌 특별 룰: 실력자 & 노력파 보정 (Efficiency Bonus)
         </h3>
         <p class="text-sm text-blue-700 mt-1 leading-relaxed">
-            Moves가 적더라도 최종 순위가 높은 팀은 '뛰어난 관리 실력'으로 인정하여 최소한 자신의 등수만큼의 보너스 확률을 보장받습니다.<br>
+            Moves가 적더라도 최종 순위가 높은 팀은 '실력자'로 인정하여 최소한 자신의 등수만큼의 보너스 확률을 보장받습니다.<br>
             <strong>🎟️ 획득 티켓 산정식:</strong> 작년 순위 점수 + <strong>MAX</strong>(순위 점수, Moves 랭킹 점수)
         </p>
     </div>
@@ -136,20 +136,20 @@
         // Updated Data based on the 2025 season calculation with 'Efficiency Bonus'
         // Formula: Rank Points + MAX(Rank Points, Moves Points)
         const initialTeams = [
-            { id: 1, name: "KAIA Commissioner", tickets: 28, color: "#ef4444" },  // Rank 1(14) + Max(14, Move 14) = 28
-            { id: 7, name: "daily sia", tickets: 26, color: "#10b981" },          // Rank 2(13) + Max(13, Move 4) = 26
-            { id: 6, name: "Sleeping Jihoo", tickets: 24, color: "#22c55e" },     // Rank 3(12) + Max(12, Move 6) = 24
-            { id: 2, name: "10 LuckyVickies", tickets: 23, color: "#f97316" },    // Rank 4(11) + Max(11, Move 12) = 23
-            { id: 3, name: "SNCD Working All Day", tickets: 21, color: "#f59e0b" },// Rank 5(10) + Max(10, Move 11) = 21
-            { id: 4, name: "Summer Gnocchi", tickets: 20, color: "#eab308" },     // Rank 9(6) + Max(6, Move 14) = 20
-            { id: 5, name: "Multi Champion", tickets: 19, color: "#84cc16" },     // Rank 6(9) + Max(9, Move 10) = 19
-            { id: 8, name: "Yame Home Cook", tickets: 16, color: "#14b8a6" },     // Rank 7(8) + Max(8, Move 7) = 16
-            { id: 12, name: "Not Seoul Mayor", tickets: 14, color: "#8b5cf6" },   // Rank 8(7) + Max(7, Move 1) = 14
-            { id: 9, name: "Married Residents", tickets: 11, color: "#06b6d4" },  // Rank 12(3) + Max(3, Move 8) = 11
-            { id: 10, name: "Mother Tucker", tickets: 11, color: "#3b82f6" },     // Rank 13(2) + Max(2, Move 9) = 11
-            { id: 11, name: "ORANGE SHOHEI", tickets: 10, color: "#6366f1" },     // Rank 10(5) + Max(5, Move 5) = 10
-            { id: 13, name: "Unfree Dobby Team", tickets: 8, color: "#d946ef" },  // Rank 11(4) + Max(4, Move 2) = 8
-            { id: 14, name: "Yubu airdoshi", tickets: 4, color: "#f43f5e" }       // Rank 14(1) + Max(1, Move 3) = 4
+            { id: 1, name: "현석", tickets: 28, color: "#ef4444" },  // Rank 1(14) + Max(14, Move 14) = 28
+            { id: 7, name: "지훈", tickets: 26, color: "#10b981" },          // Rank 2(13) + Max(13, Move 4) = 26
+            { id: 6, name: "민환", tickets: 24, color: "#22c55e" },     // Rank 3(12) + Max(12, Move 6) = 24
+            { id: 2, name: "원영", tickets: 23, color: "#f97316" },    // Rank 4(11) + Max(11, Move 12) = 23
+            { id: 3, name: "선규", tickets: 21, color: "#f59e0b" },// Rank 5(10) + Max(10, Move 11) = 21
+            { id: 4, name: "희원", tickets: 20, color: "#eab308" },     // Rank 9(6) + Max(6, Move 14) = 20
+            { id: 5, name: "승주", tickets: 19, color: "#84cc16" },     // Rank 6(9) + Max(9, Move 10) = 19
+            { id: 8, name: "바쿄", tickets: 16, color: "#14b8a6" },     // Rank 7(8) + Max(8, Move 7) = 16
+            { id: 12, name: "성원", tickets: 14, color: "#8b5cf6" },   // Rank 8(7) + Max(7, Move 1) = 14
+            { id: 9, name: "연우", tickets: 11, color: "#06b6d4" },  // Rank 12(3) + Max(3, Move 8) = 11
+            { id: 10, name: "졸세", tickets: 11, color: "#3b82f6" },     // Rank 13(2) + Max(2, Move 9) = 11
+            { id: 11, name: "지일", tickets: 10, color: "#6366f1" },     // Rank 10(5) + Max(5, Move 5) = 10
+            { id: 13, name: "민찬", tickets: 8, color: "#d946ef" },  // Rank 11(4) + Max(4, Move 2) = 8
+            { id: 14, name: "기훈", tickets: 4, color: "#f43f5e" }       // Rank 14(1) + Max(1, Move 3) = 4
         ];
 
         let activeTeams = [...initialTeams];
@@ -418,3 +418,4 @@
     </script>
 </body>
 </html>
+
